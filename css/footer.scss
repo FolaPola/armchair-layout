@@ -1,0 +1,67 @@
+@mixin indents{
+    padding-left: 405px;
+    padding-right: 405px;
+}
+@mixin location{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer {
+    width: 1920px;
+
+}
+
+nav.menu1 {
+    @include location;
+    @include indents;
+    padding: 35px 405px;
+    height: 120px;
+    & div.img {
+        @include location;
+        width: 240px;
+        & div {
+        width: 45px;
+        height: 45px;
+        border: 3px solid #66C05D;
+        border-radius: 23px;
+       
+        & img.youtube {
+            margin: 12px 10px;
+        }
+        & img.vk {
+            margin: 12px 7px;
+        }
+        img.facebook {
+            margin: 10px 14px;
+        }
+        img.insta {
+            margin: 10px 9px;
+        }
+        }
+    }
+    & p.adress {
+        margin-top: 20px ;
+    }
+    & p.phone {
+        margin-top: 20px ;
+        font-size: 16px;
+    }
+    & button {
+        padding: 12px 26px;
+        border: 3px solid #66C05D;
+        border-radius: 27px;
+        font-size: 15px;
+    }
+}
+div.footer {
+    @include indents;
+    @include location;
+    background-color: #EFEFEF;
+    & p {
+        padding: 25px 0;
+        font-size: 12px;
+        color: #828282;
+    }
+}

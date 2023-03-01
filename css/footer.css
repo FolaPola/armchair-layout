@@ -1,0 +1,64 @@
+footer {
+  width: 1920px;
+}
+
+nav.menu1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 405px;
+  padding-right: 405px;
+  padding: 35px 405px;
+  height: 120px;
+}
+nav.menu1 div.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 240px;
+}
+nav.menu1 div.img div {
+  width: 45px;
+  height: 45px;
+  border: 3px solid #66C05D;
+  border-radius: 23px;
+}
+nav.menu1 div.img div img.youtube {
+  margin: 12px 10px;
+}
+nav.menu1 div.img div img.vk {
+  margin: 12px 7px;
+}
+nav.menu1 div.img div img.facebook {
+  margin: 10px 14px;
+}
+nav.menu1 div.img div img.insta {
+  margin: 10px 9px;
+}
+nav.menu1 p.adress {
+  margin-top: 20px;
+}
+nav.menu1 p.phone {
+  margin-top: 20px;
+  font-size: 16px;
+}
+nav.menu1 button {
+  padding: 12px 26px;
+  border: 3px solid #66C05D;
+  border-radius: 27px;
+  font-size: 15px;
+}
+
+div.footer {
+  padding-left: 405px;
+  padding-right: 405px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #EFEFEF;
+}
+div.footer p {
+  padding: 25px 0;
+  font-size: 12px;
+  color: #828282;
+}/*# sourceMappingURL=footer.css.map */

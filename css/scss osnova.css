@@ -1,0 +1,394 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+/* Links */
+a, a:link, a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+a:hover {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Thin", sans-serif;
+  font-family: "Roboto Light", sans-serif;
+  font-family: "Roboto Medium", sans-serif;
+  font-family: "Roboto Black", sans-serif;
+}
+
+nav.menu_top {
+  width: 1920px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  background-color: #EFEFEF;
+}
+nav.menu_top a {
+  display: inline-block;
+  padding: 17px;
+  color: #333333;
+}
+
+div.menu_center {
+  display: flex;
+  height: 120px;
+  width: 1920px;
+}
+div.menu_center p.img {
+  padding: 20px 0px 20px 400px;
+}
+div.menu_center p.img img.logo {
+  padding: 21px 0 0 20px;
+}
+div.menu_center p {
+  padding: 50px 40px 50px 650px;
+  font-size: 19px;
+}
+div.menu_center form {
+  padding-top: 40px;
+}
+div.menu_center form button {
+  padding: 12px 26px 13px 27px;
+  border: 3px solid #66C05D;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+nav.menu_bottom {
+  width: 1920px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  border-top: 1px solid #EFEFEF;
+  text-align: center;
+}
+nav.menu_bottom a {
+  display: inline-block;
+  padding: 30px 20px;
+  font-size: 19px;
+  color: #000000;
+}
+
+main {
+  width: 1920px;
+  height: 604px;
+  color: #FFFFFF;
+}
+main div.main_chair {
+  position: absolute;
+  z-index: 2;
+  left: 405px;
+}
+main div.main_chair h1 {
+  padding-top: 192px;
+  font-size: 48px;
+  font-weight: 700;
+}
+main div.main_chair p {
+  padding-top: 50px;
+  width: 308px;
+  height: 35px;
+  font-size: 14px;
+  line-height: 20px;
+}
+main div.main_chair form {
+  padding-top: 62px;
+}
+main div.main_chair form button {
+  width: 165px;
+  height: 40px;
+  border: 3px solid #FFFFFF;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+section {
+  margin-top: 0;
+  width: 1920px;
+  height: 960px;
+  background-color: #EFEFEF;
+}
+
+div.auto {
+  display: flex;
+}
+div.auto h2 {
+  padding: 80px 550px 38px 405px;
+  font-size: 24px;
+  font-weight: 700;
+}
+div.auto img {
+  padding-top: 70px;
+}
+
+div.catalog {
+  padding-left: 405px;
+  padding-right: 405px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.catalog div {
+  padding-right: 30px;
+  width: 255px;
+  height: 363px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+div.catalog div img {
+  padding-top: 25px;
+}
+div.catalog div p {
+  padding: 20px 30px 20px 30px;
+  font-size: 14px;
+  line-height: 20px;
+}
+div.catalog div h3 {
+  font-size: 21px;
+  font-weight: 500;
+}
+div.catalog div form button {
+  width: 130px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #66C05D;
+  color: #FFFFFF;
+}
+
+div.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 405px;
+  padding-right: 405px;
+  padding-top: 100px;
+}
+div.information div.email {
+  display: flex;
+  width: 540px;
+  height: 212px;
+  background-color: #66C05D;
+  color: #FFFFFF;
+}
+div.information div.email div.text {
+  padding-top: 35px;
+  padding-left: 40px;
+  width: 350px;
+}
+div.information div.email div.text p.bonus {
+  padding-bottom: 25px;
+  font-size: 18px;
+  font-weight: 700;
+}
+div.information div.email div.text p.text {
+  width: 235px;
+  font-size: 14px;
+  line-height: 20px;
+}
+div.information div.email div.text form {
+  padding-top: 25px;
+}
+div.information div.email div.text form input {
+  width: 225px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: black;
+}
+div.information div.email div.img .ramka1 {
+  position: absolute;
+  z-index: 2;
+  padding-top: 50px;
+}
+div.information div.email div.img .ramka2 {
+  padding-top: 65px;
+  padding-left: 15px;
+}
+div.information div.map {
+  padding: 35px 250px 35px 40px;
+  width: 540px;
+  height: 212px;
+  background-color: #66C05D;
+  color: #FFFFFF;
+}
+div.information div.map p.bonus {
+  padding-bottom: 25px;
+  font-size: 18px;
+  font-weight: 700;
+}
+div.information div.map p.text {
+  width: 235px;
+  font-size: 14px;
+  line-height: 20px;
+}
+div.information div.map form {
+  padding-top: 25px;
+}
+div.information div.map form button {
+  width: 170px;
+  height: 35px;
+  border: 3px solid #FFFFFF;
+  border-radius: 20px;
+  text-align: center;
+}
+
+footer {
+  width: 1920px;
+}
+
+nav.menu1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 405px;
+  padding-right: 405px;
+  padding: 35px 405px;
+  height: 120px;
+}
+nav.menu1 div.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 240px;
+}
+nav.menu1 div.img div {
+  width: 45px;
+  height: 45px;
+  border: 3px solid #66C05D;
+  border-radius: 23px;
+}
+nav.menu1 div.img div img.youtube {
+  margin: 12px 10px;
+}
+nav.menu1 div.img div img.vk {
+  margin: 12px 7px;
+}
+nav.menu1 div.img div img.facebook {
+  margin: 10px 14px;
+}
+nav.menu1 div.img div img.insta {
+  margin: 10px 9px;
+}
+nav.menu1 p.adress {
+  margin-top: 20px;
+}
+nav.menu1 p.phone {
+  margin-top: 20px;
+  font-size: 16px;
+}
+nav.menu1 button {
+  padding: 12px 26px;
+  border: 3px solid #66C05D;
+  border-radius: 27px;
+  font-size: 15px;
+}
+
+div.footer {
+  padding-left: 405px;
+  padding-right: 405px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #EFEFEF;
+}
+div.footer p {
+  padding: 25px 0;
+  font-size: 12px;
+  color: #828282;
+}
+
+body {
+  width: 1920px;
+}/*# sourceMappingURL=scss osnova.css.map */

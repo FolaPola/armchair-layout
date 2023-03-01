@@ -1,0 +1,33 @@
+main {
+    width: 1920px;
+    height: 604px;
+    color: #FFFFFF;
+    & div.main_chair {
+        position: absolute;
+        z-index: 2;
+        left: 405px;
+        & h1 {
+            padding-top: 192px;
+            font-size: 48px;
+            font-weight: 700;
+        }
+        & p {
+            padding-top: 50px;
+            width: 308px;
+            height: 35px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        form {
+            padding-top: 62px;
+            & button {
+                width: 165px;
+                height: 40px;
+                border: 3px solid #FFFFFF;
+                border-radius: 20px;
+                font-size: 14px;
+            }
+           
+        }
+    }
+}

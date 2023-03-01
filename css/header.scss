@@ -1,0 +1,55 @@
+$width: 1920px;
+
+nav.menu_top {
+        width: $width;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        background-color: #EFEFEF;
+        & a {
+            display: inline-block;
+            padding: 17px;
+            color: #333333;
+        }
+    }
+
+div.menu_center {
+    display: flex;
+    height: 120px;
+    width: $width;
+    & p.img { 
+        padding: 20px 0px 20px 400px;
+            & img.logo {
+                padding: 21px 0 0 20px;
+            }
+        }
+    & p {
+        padding: 50px 40px 50px 650px;
+        font-size: 19px;
+    }
+    form {
+        padding-top: 40px;
+        & button {
+            padding: 12px 26px 13px 27px;
+            border: 3px solid #66C05D;
+            border-radius: 25px;
+            font-size: 15px;
+        }
+    }
+}
+
+nav.menu_bottom {
+    width: $width;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    border-top: 1px solid #EFEFEF;
+    text-align: center;
+    & a {
+        display: inline-block;
+        padding: 30px 20px;
+        font-size: 19px;
+        color: #000000;
+    }
+}

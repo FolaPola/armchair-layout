@@ -1,0 +1,145 @@
+@mixin location{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+@mixin indents{
+    padding-left: 405px;
+    padding-right: 405px;
+}
+@mixin infa {
+    width: 540px;
+    height: 212px;
+    background-color: #66C05D;
+    color: #FFFFFF;
+}
+@mixin bonus { 
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+@mixin text {
+    width: 235px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+
+section {
+    margin-top: 0;
+    width: 1920px;
+    height: 960px;
+    background-color: #EFEFEF;
+}
+div.auto {
+    display: flex;
+
+    & h2 { 
+        padding: 80px 550px 38px 405px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    & img {
+        padding-top: 70px;
+    }
+}
+div.catalog {
+    @include indents;
+    @include location;
+    & div {
+        padding-right: 30px;
+        width: 255px;
+        height: 363px;
+        background-color:#FFFFFF;
+        text-align: center;
+        & img {
+            padding-top: 25px;
+        }
+        & p {
+            padding: 20px 30px 20px 30px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        & h3 {
+            font-size: 21px;
+            font-weight: 500;
+        }
+        & form {
+            & button {
+                width: 130px;
+                height: 35px;
+                border-radius: 20px;
+                font-size: 14px;
+                background-color: #66C05D;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+div.information {
+    @include location;
+    @include indents;
+    padding-top: 100px;
+
+    & div.email {
+        display: flex;
+        @include infa;
+        & div.text {
+            padding-top: 35px;
+            padding-left: 40px;
+            width: 350px;
+            & p.bonus {
+                @include bonus;
+            }
+            & p.text {
+                @include text;
+            }
+            & form {
+                padding-top: 25px;
+                & input {
+                    width: 225px;
+                    height: 35px;
+                    border-radius: 20px;
+                    text-align: center;
+                    background-color:#FFFFFF;
+                    color: black;
+                }
+            }
+        }
+        & div.img {
+            & .ramka1 {
+                position: absolute;
+                z-index: 2; 
+                padding-top: 50px;
+            }
+            & .ramka2 {
+                padding-top: 65px;
+                padding-left: 15px;
+            }
+            
+        }
+    }
+    & div.map { 
+        padding: 35px 250px 35px 40px;
+        @include infa;
+        & p.bonus {
+            @include bonus;
+        }
+        & p.text {
+            @include text;
+        }
+        & form {
+            padding-top: 25px;
+            & button {
+                width: 170px;
+                height: 35px;
+                border: 3px solid #FFFFFF;
+                border-radius: 20px;
+                text-align: center;
+            }
+        }
+}
+}
